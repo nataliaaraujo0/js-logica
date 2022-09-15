@@ -2,7 +2,9 @@
 // 12 - 17 -> boa tarde
 // 18 - 23 -> boa noite
 
-const hora = 50;
+const data = new Date();
+const hora = data.getHours();
+//console.log(hora);
 
 if (hora >= 0 && hora <= 11) {
   console.log("Bom dia");
